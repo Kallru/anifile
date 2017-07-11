@@ -1,0 +1,6 @@
+Debug
+*.exe
+_UpgradeReport_Files
+Release
+obj
+bin
