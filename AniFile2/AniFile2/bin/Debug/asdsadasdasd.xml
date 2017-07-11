@@ -1,0 +1,85 @@
+<Root>
+  <header>Copyright(c) 2010 made by Shin Hwi Jae</header>
+  <version>1</version>
+  <Data>
+    <Node name="전체">
+      <Item name="(완)DarkerThanBlack" count="25" />
+      <Item name="(완)Fate/stayNight" count="24" />
+      <Item name="(완)가이버" count="26" />
+      <Item name="(완)데빌메이크라이" count="12" />
+      <Item name="(완)데스노트" count="37" />
+      <Item name="(완)디스가이아" count="12" />
+      <Item name="(완)블랙캣" count="23" />
+      <Item name="(완)이니셜D 4th 스테이지" count="24" />
+      <Item name="(완)정령의수호자" count="26" />
+      <Item name="(완)제로의사역마" count="13" />
+      <Item name="(완)좀비론" count="12" />
+      <Node name="abcde" />
+      <Node name="dsfeg" />
+      <Node name="uyiiuty">
+        <Item name="(만화책)데스노트" count="62" />
+        <Item name="(완)BlackBloodBrothers" count="12" />
+        <Item name="(완)Blood+" count="50" />
+        <Item name="(완)카이지" count="26" />
+        <Item name="드래곤볼 카이" count="74" />
+        <Item name="드래곤볼GT" count="45" />
+        <Item name="드래곤볼z" count="113" />
+        <Item name="레인보우" count="11" />
+        <Item name="마크로스 프론티어" count="25" />
+        <Item name="망념의 잠드" count="12" />
+        <Item name="뱀부블레이드" count="26" />
+        <Item name="번노티스 시즌3" count="9" />
+        <Item name="빅뱅이론 시즌3" count="23" />
+        <Item name="빅뱅이론 시즌4" count="2" />
+      </Node>
+      <Node name="강철의연금술사">
+        <Item name="(완)클레이모어" count="26" />
+        <Item name="D그레이맨" count="103" />
+        <Item name="강철연금술사(리메)" count="64" />
+        <Item name="건담00" count="25" />
+        <Item name="건담더블오 2기" count="25" />
+        <Item name="그레이아나토미 시즌6" count="24" />
+        <Item name="그레이아나토미 시즌7" count="1" />
+        <Item name="기동전사 Z건담" count="39" />
+        <Item name="나루토" count="399" />
+        <Item name="더파이팅" count="26" />
+        <Item name="도서관전쟁" count="10" />
+        <Item name="도쿄 매그니튜드" count="10" />
+        <Item name="돌하우스" count="11" />
+      </Node>
+    </Node>
+    <Node name="예전데이터">
+      <Item name="프린지 시즌3" count="1" />
+      <Item name="쓰리몬" count="13" />
+      <Item name="화이트칼라2시즌" count="9" />
+      <Item name="시귀" count="11" />
+      <Item name="언젠가는 대마왕" count="4" />
+      <Item name="퍼시픽" count="9" />
+      <Item name="섬광의 나이트" count="2" />
+      <Item name="페어리테일" count="11" />
+      <Item name="흑의 계약자 2기" count="12" />
+      <Item name="히어로즈시즌4" count="19" />
+      <Item name="프린지 시즌2" count="22" />
+      <Item name="프린지" count="20" />
+      <Item name="전장에발큐리아" count="3" />
+      <Item name="슬레이어즈2기" count="2" />
+      <Item name="히어로즈시즌3" count="25" />
+      <Item name="프리즌브레이크4" count="4" />
+      <Item name="슬레이어즈" count="12" />
+      <Item name="소울이터" count="51" />
+      <Item name="코드기어즈R2" count="25" />
+      <Item name="페르소나" count="7" />
+      <Item name="히어로즈시즌2" count="11" />
+      <Item name="프리즌브레이크시즌3" count="13" />
+      <Item name="코드기어스" count="25" />
+      <Item name="클러스터 에지" count="12" />
+      <Item name="홀리랜드" count="78" />
+      <Item name="오늘부터마왕" count="64" />
+      <Item name="테니스의왕자님" count="169" />
+      <Item name="피스메이커" count="22" />
+      <Item name="트라이건" count="18" />
+      <Item name="소울테커" count="3" />
+      <Item name="크로마티고교" count="9" />
+    </Node>
+  </Data>
+</Root>

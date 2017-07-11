@@ -1,0 +1,296 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AniFileEx.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_MAIN           ICON                    "res\\icon1.ico"
+IDI_ICON_BOOK           ICON                    "res\\icon2.ico"
+IDI_ICON_FILE           ICON                    "res\\file2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 107
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AniFileEx 정보"
+FONT 9, "굴림", 0, 0, 0x0
+BEGIN
+    ICON            IDI_ICON_MAIN,IDC_STATIC,13,11,20,20
+    LTEXT           "AniFileEx 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004 ~ 2006",IDC_STATIC,41,85,84,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "Programming by Shin Hwi Jae",IDC_STATIC,41,73,99,8
+    LTEXT           "아... 배고프당",IDC_STATIC,41,26,86,15
+END
+
+IDD_ANIFILEEX_DIALOG DIALOGEX 0, 0, 303, 293
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "AniFileEx"
+FONT 9, "굴림", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "종료 && 저장",IDOK,174,264,119,22
+    CONTROL         "Tree1",IDC_TREE_VIEW,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_SHOWSELALWAYS | TVS_NOTOOLTIPS | TVS_TRACKSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,11,17,145,261
+    GROUPBOX        "TreeView",IDC_STATIC,7,7,156,279
+    GROUPBOX        "정보",IDC_STATIC,174,33,119,74
+    LTEXT           "제목 :",IDC_STATIC,180,47,19,8
+    LTEXT           "화",IDC_STATIC,232,62,8,8
+    EDITTEXT        IDC_EDIT_NAME,203,45,83,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_COUNT,203,60,25,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "편집(&E)",IDC_BUTTON_EDIT,245,60,43,14
+    PUSHBUTTON      "화수올리기",IDC_BUTTON_COUNT,186,75,60,27
+    PUSHBUTTON      "삭제(&D)",IDC_BUTTON_DELETE,249,87,38,14
+    PUSHBUTTON      "Programming by Shin Hwi Jae pkallru@gmail.com(스펨사절)     ver 1.0",IDC_BUTTON_ABOUT,175,199,118,37,BS_VCENTER | BS_MULTILINE | BS_FLAT
+    PUSHBUTTON      "옛 파일 열기(&O)",IDC_BUTTON_LOAD,177,13,82,16
+    GROUPBOX        "검색",IDC_STATIC,174,113,119,82
+    EDITTEXT        IDC_EDIT_SEARCH,178,127,77,12,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "검색",IDC_BUTTON_SEARCH,258,125,29,17
+    LISTBOX         IDC_LIST_SEARCH,179,143,109,46,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_TABSTOP
+    ICON            IDI_ICON_BOOK,IDC_STATIC,269,9,18,21
+    CONTROL         "http://www.kallru.com",IDC_MFCLINK1,"MfcLink",WS_TABSTOP,194,245,82,11
+END
+
+IDD_NEWFILE DIALOG 0, 0, 221, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "NewFile"
+FONT 9, "굴림"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,164,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,164,24,50,14
+    ICON            IDI_ICON_FILE,IDC_STATIC,10,11,18,21
+    LTEXT           "제목 :",IDC_STATIC,37,10,19,8
+    LTEXT           "화수 :",IDC_STATIC,36,26,19,8
+    EDITTEXT        IDC_EDIT1,59,7,96,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,59,24,47,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+
+    IDD_ANIFILEEX_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 286
+    END
+
+    IDD_NEWFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TREE_ICON           BITMAP                  "res\\Icon.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "새파일(&N)",                     ID_MENU_NEW
+        MENUITEM "새폴더(&F)",                     ID_MENU_NEWFOLDER
+        MENUITEM "편집(&E)",                      ID_MENU_EDIT
+        MENUITEM "삭제(&D)",                      ID_MENU_DELETE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ANIFILEEX_DIALOG DLGINIT
+BEGIN
+    IDC_MFCLINK1, 0x37c, 171, 0
+0x4d3c, 0x4346, 0x694c, 0x6b6e, 0x555f, 0x6c72, 0x773e, 0x7777, 0x6b2e, 
+0x6c61, 0x726c, 0x2e75, 0x6f63, 0x3c6d, 0x4d2f, 0x4346, 0x694c, 0x6b6e, 
+0x555f, 0x6c72, 0x3c3e, 0x464d, 0x4c43, 0x6e69, 0x5f6b, 0x7255, 0x506c, 
+0x6572, 0x6966, 0x3e78, 0x2f3c, 0x464d, 0x4c43, 0x6e69, 0x5f6b, 0x7255, 
+0x506c, 0x6572, 0x6966, 0x3e78, 0x4d3c, 0x4346, 0x694c, 0x6b6e, 0x545f, 
+0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x694c, 0x6b6e, 0x545f, 
+0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4c43, 0x6e69, 0x5f6b, 0x7546, 
+0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 0x6974, 0x3e70, 0x4146, 0x534c, 
+0x3c45, 0x4d2f, 0x4346, 0x694c, 0x6b6e, 0x465f, 0x6c75, 0x546c, 0x7865, 
+0x5474, 0x6f6f, 0x746c, 0x7069, "\076" 
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "AniFileEx MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "AniFileEx"
+            VALUE "LegalCopyright", "Copyright (C) 2006"
+            VALUE "OriginalFilename", "AniFileEx.EXE"
+            VALUE "ProductName", "AniFileEx Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About AniFileEx..."
+END
+
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\AniFileEx.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

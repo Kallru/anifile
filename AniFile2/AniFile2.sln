@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniFile2", "AniFile2\AniFile2.csproj", "{481BC2C0-690F-4316-86A0-2DE1015AD582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2310C2FA-5074-46D9-B205-DEA93716526F}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+		Performance2.psess = Performance2.psess
+		Performance3.psess = Performance3.psess
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{481BC2C0-690F-4316-86A0-2DE1015AD582}.Debug|x86.ActiveCfg = Debug|x86
+		{481BC2C0-690F-4316-86A0-2DE1015AD582}.Debug|x86.Build.0 = Debug|x86
+		{481BC2C0-690F-4316-86A0-2DE1015AD582}.Release|x86.ActiveCfg = Release|x86
+		{481BC2C0-690F-4316-86A0-2DE1015AD582}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

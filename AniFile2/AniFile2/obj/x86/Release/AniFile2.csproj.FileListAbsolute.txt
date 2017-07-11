@@ -1,0 +1,8 @@
+D:\WorkRoom\MyWork\AniFile2\AniFile2\bin\Release\AniFile2.exe
+D:\WorkRoom\MyWork\AniFile2\AniFile2\bin\Release\AniFile2.pdb
+D:\WorkRoom\MyWork\AniFile2\AniFile2\obj\x86\Release\AniFile2.EditableForm.resources
+D:\WorkRoom\MyWork\AniFile2\AniFile2\obj\x86\Release\AniFile2.MainForm.resources
+D:\WorkRoom\MyWork\AniFile2\AniFile2\obj\x86\Release\AniFile2.Properties.Resources.resources
+D:\WorkRoom\MyWork\AniFile2\AniFile2\obj\x86\Release\AniFile2.csproj.GenerateResource.Cache
+D:\WorkRoom\MyWork\AniFile2\AniFile2\obj\x86\Release\AniFile2.exe
+D:\WorkRoom\MyWork\AniFile2\AniFile2\obj\x86\Release\AniFile2.pdb

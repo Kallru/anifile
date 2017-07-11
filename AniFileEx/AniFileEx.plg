@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AniFileEx - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kallru\LOCALS~1\Temp\RSP38.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/AniFileEx.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\DestkTop Work\AniFileEx\AniFileExDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kallru\LOCALS~1\Temp\RSP38.tmp" 
+Creating temporary file "C:\DOCUME~1\kallru\LOCALS~1\Temp\RSP39.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/AniFileEx.pdb" /debug /machine:I386 /nodefaultlib:"libc.lib" /nodefaultlib:"libcd.lib" /out:"Debug/AniFileEx.exe" /pdbtype:sept 
+".\Debug\AniFileEx.obj"
+".\Debug\AniFileExDlg.obj"
+".\Debug\EditDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\AniFileEx.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\kallru\LOCALS~1\Temp\RSP39.tmp"
+<h3>Output Window</h3>
+Compiling...
+AniFileExDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/AniFileEx.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\AniFileEx.sbr" ".\Debug\AniFileExDlg.sbr" ".\Debug\EditDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+AniFileEx.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

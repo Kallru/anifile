@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="D:\WorkRoom\MyWork\AniFile2\AniFile2\bin\Debug\AniFile2.exe">
+   <Modules>
+    <Module Name="anifile2.exe">
+     <Namespaces>
+      <Namespace Name="AniFile2">
+       <Types>
+        <Type Name="AniFileNode" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-01-23 06:55:28Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">이 형식이 ISerializable을 구현할 때 'AniFileNode'에 [Serializable]을 추가하십시오.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>SerializableAttribute로 ISerializable 형식 표시</Name>
+   <Description>System.Runtime.Serialization.ISerializable 인터페이스는 형식에서 serialization을 사용자 지정할 수 있습니다. Serializable 특성을 사용하면 런타임에서 형식을 serialize할 수 있는 것으로 인식할 수 있습니다.</Description>
+   <Resolution Name="Default">이 형식이 ISerializable을 구현할 때 {0}에 [Serializable]을 추가하십시오.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">범주</String>
+  <String Key="Certainty">확신도</String>
+  <String Key="CollapseAll">모두 축소</String>
+  <String Key="CheckId">확인 ID</String>
+  <String Key="Error">오류</String>
+  <String Key="Errors">개 오류</String>
+  <String Key="ExpandAll">모두 확장</String>
+  <String Key="Help">도움말</String>
+  <String Key="Line">줄</String>
+  <String Key="Messages">메시지</String>
+  <String Key="LocationNotStoredInPdb">[Pdb에 위치가 저장되지 않음]</String>
+  <String Key="Project">프로젝트</String>
+  <String Key="Resolution">확인</String>
+  <String Key="Rule">규칙</String>
+  <String Key="RuleFile">규칙 파일</String>
+  <String Key="RuleDescription">규칙 설명</String>
+  <String Key="Source">소스</String>
+  <String Key="Status">상태</String>
+  <String Key="Target">대상</String>
+  <String Key="Warning">경고</String>
+  <String Key="Warnings">경고</String>
+  <String Key="ReportTitle">코드 분석 보고서</String>
+ </Localized>
+</FxCopReport>

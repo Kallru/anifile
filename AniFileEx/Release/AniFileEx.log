@@ -1,0 +1,38 @@
+﻿빌드 시작: 2014-04-18 오전 4:41:23
+     1>2 노드의 "E:\WorkRoom\MyWork\AniFileEx\AniFileEx.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 ".\Release\AniFileEx.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release/AniFileEx.pch" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AniFileExDlg.cpp
+         AniFileExDlg.cpp
+     1>AniFileExDlg.cpp(271): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>AniFileExDlg.cpp(908): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>AniFileExDlg.cpp(973): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>AniFileExDlg.cpp(974): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>AniFileExDlg.cpp(1017): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' 선언을 참조하십시오.
+     1>AniFileExDlg.cpp(1022): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' 선언을 참조하십시오.
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0412" /nologo /fo".\Release\AniFileEx.res" AniFileEx.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/AniFileEx.exe" /INCREMENTAL:NO /NOLOGO /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Release\AniFileEx.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/AniFileEx.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release\AniFileEx.lib" /MACHINE:X86 .\Release\AniFileEx.res
+         .\Release/AniFileEx.obj
+         .\Release/AniFileExDlg.obj
+         .\Release/EditDlg.obj
+         .\Release/StdAfx.obj
+         AniFileEx.vcxproj -> E:\WorkRoom\MyWork\AniFileEx\.\Release\AniFileEx.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/AniFileEx.exe;#1" /manifest .\Release\AniFileEx.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         ".\Release\AniFileEx.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         ".\Release\AniFileEx.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\WorkRoom\MyWork\AniFileEx\AniFileEx.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:11.15
